@@ -68,9 +68,13 @@ Cache::config('default', array('engine' => 'File'));
  * advanced ways of loading plugins
  *
  * CakePlugin::loadAll(); // Loads all plugins at once
- * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
+ * 
  *
  */
+
+
+CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
+CakePlugin::load('CakePtbr');
 
 /**
  * You can attach event listeners to the request lifecycle as Dispatcher Filter. By default CakePHP bundles two filters:
@@ -107,3 +111,6 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+require APP . 'Plugin' . DS . 'CakePtbr' . DS . 'Config' . DS . 'inflections.php';
+require APP . 'Plugin' . DS . 'CakePtbr' . DS . 'Config' . DS . 'traducao_core.php';

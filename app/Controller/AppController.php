@@ -31,46 +31,14 @@ App::uses('Controller', 'Controller');
  * @package		app.Controller
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
+
+
+	
+	
 class AppController extends Controller {
 
-	public $components = array('Session' , 'Cookie', 'Auth');
-	public function beforeFilter() {
-
-		// Model de Usuários
-		$this->Auth->usermodel = 'Cliente';
-
-		//Campos usuário e senha
-		$this->Auth->fields = array(
-			'username'=> 'email',
-			'password'=> 'senha'
-			);
-
-		//Condição de usuário ativo/valido (opcional)
-		$this->Auth->userScope = array(
-			'Cliente.Ativo' => true 
-			);
-
-		//Action da tela de login
-		$this->Auth->loginAction = array(
-			'controller' =>'clientes',
-			'action' => 'login'
-			);
-		// Action para redircionamento após o login (com sucesso)
-		$this->Auth->loginRedirect = array(
-			'controller'=>'clientes',
-			'action'=>'home'
-			);
-
-		//Action para redirecionamento após o logout
-		$this->Auth->logoutRedirect = array(
-			'controller'=>'pages',
-			'action'=>'display', 'home'
-			);
-
-		//Mensagem de erro
-		$this->Auth->loginError = 'Usuário e/ou senha incorreto (s)';
-		$this->Auth->authError = 'Você precisa fazer login para acessar estapágina';
-	}
+	public $components = array('DebugKit.Toolbar');
+	
 
 }
 

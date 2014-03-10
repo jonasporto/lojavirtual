@@ -1,0 +1,31 @@
+Notas do curso
+
+Vendor (Dentro da pasta app)
+ -  facebook-php-sdk-master
+ -  wideimage
+
+Plugin (Dentro da pasta app)
+ -  CakePtbr
+ -  DebugKit
+
+Contatos dos alunos
+
+Baco: E-mail: edmarcarvalhaes@msn.com
+Paulo: skype: p_j_albuquerque
+Pedro Vinicius: pedro.silva@vsystems.com.br 
+Baco: skype: edmarcarvalhaes
+Paulo: email: p_j_albuquerque@hotmail.com
+Thiago Retondar: t.retondar@gmail.com
+Glécio Santos: glecio12@gmail.com
+LEANDRO PEREIRA: skype: leandromachadopereira
+Caiua França: Nome: Caiua França - Email: caiuagomes@gmail.com - GitHub: caiuafranca - Skype: caiua_franca
+Pedro Vinicius: skype: viniciusn23
+Thiago Philipp: Skype: thiago_philipp
+Thiago Philipp: E-mail: tgo.philipp@gmail.com
+Rodrigo: irodrigocarvalho@gmail.com
+Leonardo Bueno: leobueno@buenoinfo.net
+Leonardo Bueno: skype: lbueno.vip
+Rodrigo: irodrigocarvalho@gmail.com
+Roberto Melo: robertomelo822@gmail.com
+Leandro Toledo: skype: leandrorichardgo
+jonas Porto: jporto.contato@hotmail.com skype:jonasportorj github:jonasporto
